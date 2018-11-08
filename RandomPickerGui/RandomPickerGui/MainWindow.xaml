@@ -1,0 +1,16 @@
+﻿<Window x:Class="RandomPickerGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomPickerGui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-8,0">
+        <Button Content="Read List" HorizontalAlignment="Left" Margin="146,307,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.077,-1.673" Click="Button_Click"/>
+        <Button Content="Randomize" HorizontalAlignment="Left" Margin="337,307,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.077,-1.673"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="524,307,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.077,-1.673"/>
+        <ListBox HorizontalAlignment="Center" Height="100" Margin="280,120,298,0" VerticalAlignment="Top" Width="214" SelectionChanged="ListBox_SelectionChanged"/>
+
+    </Grid>
+</Window>
